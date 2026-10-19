@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1033 768" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <filter id="soft-blur" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur stdDeviation="12" />
+    </filter>
+  </defs>
+  <image href="game-background.png" width="1033" height="768" filter="url(#soft-blur)" />
+  <rect width="1033" height="768" fill="#10091b" opacity="0.32" />
+</svg>
